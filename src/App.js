@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import DataFetching from './DataFetching';
+
 
 function App() {
-  return (
+
+const api1="https://newsapi.org/v2/everything?domains=wsj.com&apiKey=1887c59ea59f4502b3fe5d0357bb5a51";
+const api2="https://newsapi.org/v2/everything?q=apple&from=2021-10-09&to=2021-10-09&sortBy=popularity&apiKey=1887c59ea59f4502b3fe5d0357bb5a51";
+const api3="https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1887c59ea59f4502b3fe5d0357bb5a51";
+  
+return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetching api1={api1} api2={api2} api3={api3}/>
+      
+
+      
+      
     </div>
   );
 }
