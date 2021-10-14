@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/UnicodeTask3/static/css/main.f6cd77ff.chunk.css",
-    "main.js": "/UnicodeTask3/static/js/main.cd2dbb68.chunk.js",
-    "main.js.map": "/UnicodeTask3/static/js/main.cd2dbb68.chunk.js.map",
+    "main.js": "/UnicodeTask3/static/js/main.e7212c9f.chunk.js",
+    "main.js.map": "/UnicodeTask3/static/js/main.e7212c9f.chunk.js.map",
     "runtime-main.js": "/UnicodeTask3/static/js/runtime-main.1429adb9.js",
     "runtime-main.js.map": "/UnicodeTask3/static/js/runtime-main.1429adb9.js.map",
-    "static/js/2.4bed8995.chunk.js": "/UnicodeTask3/static/js/2.4bed8995.chunk.js",
-    "static/js/2.4bed8995.chunk.js.map": "/UnicodeTask3/static/js/2.4bed8995.chunk.js.map",
+    "static/js/2.9cbdf12b.chunk.js": "/UnicodeTask3/static/js/2.9cbdf12b.chunk.js",
+    "static/js/2.9cbdf12b.chunk.js.map": "/UnicodeTask3/static/js/2.9cbdf12b.chunk.js.map",
     "static/js/3.c352302d.chunk.js": "/UnicodeTask3/static/js/3.c352302d.chunk.js",
     "static/js/3.c352302d.chunk.js.map": "/UnicodeTask3/static/js/3.c352302d.chunk.js.map",
     "index.html": "/UnicodeTask3/index.html",
     "static/css/main.f6cd77ff.chunk.css.map": "/UnicodeTask3/static/css/main.f6cd77ff.chunk.css.map",
-    "static/js/2.4bed8995.chunk.js.LICENSE.txt": "/UnicodeTask3/static/js/2.4bed8995.chunk.js.LICENSE.txt"
+    "static/js/2.9cbdf12b.chunk.js.LICENSE.txt": "/UnicodeTask3/static/js/2.9cbdf12b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1429adb9.js",
-    "static/js/2.4bed8995.chunk.js",
+    "static/js/2.9cbdf12b.chunk.js",
     "static/css/main.f6cd77ff.chunk.css",
-    "static/js/main.cd2dbb68.chunk.js"
+    "static/js/main.e7212c9f.chunk.js"
   ]
 }
