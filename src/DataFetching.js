@@ -111,7 +111,7 @@ function DataFetching(props){
                               </CardContent>
 
                               <CardActions textAlign="center" className="cards">
-                                <Button size="small" textAlign="center" ><a  href={post.url}>More Description</a></Button>
+                                <Button size="small" ><a  href={post.url}>More Description</a></Button>
                               </CardActions>
 
                             </Card>
