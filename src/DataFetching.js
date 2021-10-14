@@ -88,8 +88,9 @@ function DataFetching(props){
                               <CardMedia
                                 component="img"
                                 alt="loading"
-                                height="170"
+                                height="220"
                                 image={ post.urlToImage}
+                                className="img"
                               />
                               <CardContent >
                                 <Typography gutterBottom variant="h7" component="div">
@@ -109,7 +110,7 @@ function DataFetching(props){
                                 </Typography>
                               </CardContent>
 
-                              <CardActions textAlign="center">
+                              <CardActions textAlign="center" className="cards">
                                 <Button size="small" textAlign="center" ><a  href={post.url}>More Description</a></Button>
                               </CardActions>
 
