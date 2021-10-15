@@ -21,6 +21,9 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
+
+
+
 function DataFetching(props){
 
   
@@ -35,15 +38,15 @@ function DataFetching(props){
             // console.log(res.data.articles)
             list=res.data.articles;
             
-        //     axios.get(props.api2)
-        // .then(res=> {
-        //     // console.log(res.data.articles)
-        //     list=list.concat(res.data.articles);
+            axios.get(props.api2)
+        .then(res=> {
+            // console.log(res.data.articles)
+            list=list.concat(res.data.articles);
 
-        //     axios.get(props.api3)
-        // .then(res=> {
-        //     // console.log(res.data.articles)
-        //     list=list.concat(res.data.articles);
+            axios.get(props.api3)
+        .then(res=> {
+            // console.log(res.data.articles)
+            list=list.concat(res.data.articles);
 
             console.log(list);
             setPosts(list);
@@ -52,15 +55,15 @@ function DataFetching(props){
             console.log(err)
         })    
             
-        // }).catch(err =>{
-        //     console.log(err)
-        // })
+        }).catch(err =>{
+            console.log(err)
+        })
             
-        // }).catch(err =>{
-        //     console.log(err)
-        // })
+        }).catch(err =>{
+            console.log(err)
+        })
 
-    },[props.api1])
+    },[props.api1 ,props.api2, props.api3])
 
     function handleChange (event,value) {
       console.log(value);
@@ -92,7 +95,7 @@ function DataFetching(props){
                                 className="img"
                               />
                               <CardContent className="content" >
-                                <Typography gutterBottom variant="h8" component="div">
+                                <Typography gutterBottom variant="h6" component="div">
                                 {post.author}
                                 </Typography>
                                 <Typography gutterBottom variant="h7" component="div" className="title">
