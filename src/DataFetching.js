@@ -72,7 +72,7 @@ function DataFetching(props){
          
 <Box xs={{ width: '100%' }} className="box" >
 <div className="page">
-<Pagination count={10} page={page} onChange={handleChange} textAlign="center" />
+<Pagination count={10} page={page} onChange={handleChange} />
 </div>
 
       <Grid alignItems="left" container rowSpacing={{ xs: 30, sm: 3, md: 3 }} columnSpacing={1} >
@@ -91,14 +91,14 @@ function DataFetching(props){
                                 image={ post.urlToImage}
                                 className="img"
                               />
-                              <CardContent >
-                                <Typography gutterBottom variant="h7" component="div">
+                              <CardContent className="content" >
+                                <Typography gutterBottom variant="h8" component="div">
                                 {post.author}
                                 </Typography>
-                                <Typography gutterBottom variant="h6" component="div">
+                                <Typography gutterBottom variant="h7" component="div" className="title">
                                 {post.title}
                                 </Typography>
-                                <Typography variant="body2" color="black">
+                                <Typography variant="body2" color="black" className="body" >
                                 {post.content}
                                 </Typography>
                                 {/* <Typography variant="body2" color="text.secondary">

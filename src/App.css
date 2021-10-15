@@ -11,15 +11,29 @@ h1{
     background-color: rgb(153, 153, 189);
 }
 
+.content{
+    height: 300px;
+}
+
+.title{
+    height: 100px!important;
+
+}
+
+.body{
+    height: 150px;
+}
+
 .items{
     background-color: rgb(78, 112, 93)!important;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: flex!important;
+    justify-content: center!important;
+    
 }
 
 .box{
     background-color: rgb(78, 112, 93)!important;
+    margin: 1px;
 }
 
 .page{
