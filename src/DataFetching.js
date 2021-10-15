@@ -35,15 +35,15 @@ function DataFetching(props){
             // console.log(res.data.articles)
             list=res.data.articles;
             
-            axios.get(props.api2)
-        .then(res=> {
-            // console.log(res.data.articles)
-            list=list.concat(res.data.articles);
+        //     axios.get(props.api2)
+        // .then(res=> {
+        //     // console.log(res.data.articles)
+        //     list=list.concat(res.data.articles);
 
-            axios.get(props.api3)
-        .then(res=> {
-            // console.log(res.data.articles)
-            list=list.concat(res.data.articles);
+        //     axios.get(props.api3)
+        // .then(res=> {
+        //     // console.log(res.data.articles)
+        //     list=list.concat(res.data.articles);
 
             console.log(list);
             setPosts(list);
@@ -52,15 +52,15 @@ function DataFetching(props){
             console.log(err)
         })    
             
-        }).catch(err =>{
-            console.log(err)
-        })
+        // }).catch(err =>{
+        //     console.log(err)
+        // })
             
-        }).catch(err =>{
-            console.log(err)
-        })
+        // }).catch(err =>{
+        //     console.log(err)
+        // })
 
-    },[props.api1, props.api2, props.api3])
+    },[props.api1])
 
     function handleChange (event,value) {
       console.log(value);
